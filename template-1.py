@@ -1,0 +1,37 @@
+#!/user/bin/env python3 -tt
+"""
+Task:
+https://adventofcode.com/2018/day/1
+"""
+
+# Imports
+import sys
+import os
+import re
+
+# Global variables
+task="d-1"
+infile=task + ".input"
+
+def readInput():
+    with open('input/' + infile) as file:
+        data = file.read()
+    file.close()
+    return data
+
+def a():
+    rows = [n for n in readInput().split('\n')]
+
+    print("A): ")
+
+def b():
+    rows = [n for n in readInput().split('\n')]
+   
+    print("B): ")
+    sys.exit(1)
+
+# Main body
+if __name__ == '__main__':
+   # a()
+    b()
+    sys.exit(1)
