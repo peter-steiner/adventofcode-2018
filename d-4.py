@@ -1,7 +1,7 @@
 #!/user/bin/env python3 -tt
 """
 Task:
-https://adventofcode.com/2018/day/1
+https://adventofcode.com/2018/day/4
 """
 
 # Imports
@@ -10,7 +10,7 @@ import os
 import re
 
 # Global variables
-task="d-1"
+task="d-4-t"
 infile=task + ".input"
 
 def readInput():
