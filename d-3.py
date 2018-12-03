@@ -1,7 +1,7 @@
 #!/user/bin/env python3 -tt
 """
 Task:
-https://adventofcode.com/2018/day/1
+https://adventofcode.com/2018/day/3
 """
 
 # Imports
