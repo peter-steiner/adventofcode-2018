@@ -26,6 +26,8 @@ def a():
     m = re.findall(r'\d+', row) 
 
     print(m)
+    print('!a'.isalpha())
+    print('Aa'.isalpha())
     
 # Main body
 if __name__ == '__main__':
